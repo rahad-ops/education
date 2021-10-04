@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+  font-weight: 400;
+}
+
+html,
+body,
+#root,
+#root:first-child {
+  height: 100% !important;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.floatRight {
+  float: right;
+}
+
+.moduleTitle {
+  font-size: 1.5em !important;
+}
+
+[data-reactroot] {
+  height: 100% !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.homepage {
+  background: url('https://images.pexels.com/photos/373465/pexels-photo-373465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  filter: opacity(0.8);
+  box-shadow: 0 2px 5px rgb(184, 175, 175);
+}
+
+.courseCreationFormControl {
+  margin-bottom: 15px !important;
+}
+
+.textFieldOnError::before {
+  background-color: red !important;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.alignSelfCenter {
+  align-self: center;
+}
+
+/* chat */
+.chat-messages > div:nth-child(2n-1) > div > div {
+  background-color: rgb(158, 157, 157) !important;
+}
+
+.chatFeed {
+  max-height: 500px;
+  overflow: auto;
+  width: 100%;
+  min-height: 500px;
+  background: #f7f7f7;
+}
+
+.scrollToDiv {
+  float: left;
+  clear: both;
+}
+
+.messageInput {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  background: #fffdfd;
+  border-top: 1px solid #dedede;
+  padding: 10px;
+}
+
+/* end of chat */
+
+/* course */
+.createModuleButton {
+  float: left;
+  margin-left: 25px;
+}
+
+.moduleCreationMenu {
+  left: 75px;
+}
+
+/* end of course */
+
+/* modules */
+.module {
+  padding-bottom: 10px;
+}
+
+.moduleItem {
+  padding: 5px;
+}
+
+/* end of modules */
+
+/* item action */
+.actionsContainer {
+  text-align: right;
+  padding: 0 !important;
+}
+
+.actionButton {
+  margin-left: 5px;
+}
+/* end of item action */
+
+/* menu action */
+.menuWrapper {
+  text-align: right;
+  padding: 0 !important;
+}
+
+.menuAction {
+  padding: 10px;
+}
+/* end of menu action */
